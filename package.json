@@ -1,0 +1,32 @@
+{
+  "name": "qa-check-list",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "QA Check List — Chrome Extension для прохождения чек-листов в Side Panel",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b --pretty false",
+    "preview": "vite preview",
+    "verify": "node scripts/manual-verify.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.7.1",
+    "@types/chrome": "^0.2.6",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "playwright": "^1.55.0",
+    "typescript": "~5.8.3",
+    "vite": "^8.2.0"
+  }
+}
