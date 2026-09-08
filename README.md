@@ -98,6 +98,12 @@ src/
 
 Никаких host permissions и внешних сервисов.
 
+<img width="955" height="871" alt="image" src="https://github.com/user-attachments/assets/86989cc8-9561-4643-bf97-69bb9460f8b5" />
+
+<img width="1111" height="871" alt="image" src="https://github.com/user-attachments/assets/45f26e98-515c-4416-a210-8b7adedef4f0" />
+
+
+
 ## Проверка
 
 ```bash
